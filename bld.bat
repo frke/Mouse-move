@@ -1,10 +1,14 @@
-cd D:\u\w\ecScala\w2\MouseyMove\src
-d:
-javac -d ..\bin *.java
+echo bulid Java aplikacije Mouse-move
+cd C:\Users\franc.kebe\Documents\Projekti\Mouse-move\src
+c:
+javac -d ..\bin *.java 
+REM -d switch pove, kam shranim generirane class file
 pause
-cd  D:\u\w\ecScala\w2\MouseyMove
+cd  C:\Users\franc.kebe\Documents\Projekti\Mouse-move
 copy /y bin\* bld\
 mkdir bld\META-INF
 copy /y MANIFEST.MF bld\META-INF
 cd bld
 jar cvfM ..\Mousey-App.jar *
+echo Konec
+pause

@@ -31,8 +31,8 @@ public class Mousey {
 //			int j = intRotate(i, mx, mi, 1);
 //			System.out.println("i " + i + "  j " + j);
 //		}
-		frm = new JFrame ("Mouse move close to stop 1.2");
-		frm.setSize(650,600);
+		frm = new JFrame ("Mouse move every 8 seconds one pixel; Close this window to stop this program");
+		frm.setSize(650,300);
 		frm.setVisible(true);
 		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

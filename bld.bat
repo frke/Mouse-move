@@ -9,6 +9,6 @@ copy /y bin\* bld\
 mkdir bld\META-INF
 copy /y MANIFEST.MF bld\META-INF
 cd bld
-jar cvfM ..\Mousey-App.jar *
+jar cvfM ..\Mouse-move-app.jar *
 echo Konec
 pause

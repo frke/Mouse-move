@@ -64,7 +64,15 @@ public class Mousey {
 			txt.setText(s1);
 			robo.mouseMove(x, y);
 			//SoundUtils.toneit(300, 90);
+			if (datum < 17 and datum > 7)
+			{
 			slp(8000);
+			}
+			else
+			{
+			 slp(60*24*60*1000);
+			}
+			
 		}
 
 	}
